@@ -65,7 +65,7 @@ header h1 {
 }
 
 hr {
-    width: 900px;
+    width: 90%;
     margin: auto;
     margin-bottom: 30px;
     border: 2px solid #cccccc;
@@ -181,6 +181,7 @@ footer {
 @media screen and (max-width: 980px) {
     .container {
         width: 100%;
+        max-width: 980px;
     }
 
 }
@@ -189,6 +190,7 @@ footer {
     .container {
         margin: 0px 10px 0px 10px;
         width: 100%;
+        max-width: 768px;
     }
 
 }
@@ -210,6 +212,7 @@ footer {
     .container {
         margin: 85px 10px 30px 10px;
         width: 100%;
+        max-width: 640px;
     }
 
 }
